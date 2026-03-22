@@ -1,0 +1,6 @@
+org\gjt\sp\jedit\search\HyperSearchRequestTest.class
+org\gjt\sp\jedit\search\BoyerMooreSearchMatcherTest.class
+org\gjt\sp\jedit\search\PatternSearchMatcherTest.class
+org\gjt\sp\jedit\search\SearchAndReplaceTest.class
+org\gjt\sp\jedit\search\SearchMatcherTest$MockSearchMatcher.class
+org\gjt\sp\jedit\search\SearchMatcherTest.class
