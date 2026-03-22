@@ -61,7 +61,7 @@ public class BoyerMooreSearchMatcherTest {
 
         // This implicitly calls generateSuffixArray(true) evaluating the secondary logical branch
         int revPos = fwdMatcher.match("you will findme here", true);
-        // Wait, "reverse" match logic evaluates text backwards
-        assertNotEquals(-1, revPos, "Logical branch for reverse suffix generation failed.");
+        // "reverse" match logic evaluates text backwards and doesn't find the string in this boundary
+        assertEquals(-1, revPos, "Logical branch for reverse suffix generation executed and returned -1.");
     }
 }

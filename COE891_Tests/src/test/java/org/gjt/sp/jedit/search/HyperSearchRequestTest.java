@@ -62,13 +62,16 @@ public class HyperSearchRequestTest {
         Selection mockLinear = mock(Selection.Range.class);
         Selection mockRect = mock(Selection.Rect.class);
 
-        Selection[] mixedSelections = new Selection[]{mockLinear, mockRect};
-        HyperSearchRequest request = new HyperSearchRequest(mockView, mockMatcher, mockResults, mixedSelections);
-
-        // This method is mostly private, so executing run() with selection triggers it
-        try {
-            request._run(); 
-        } catch (Exception e) {}
+        java.lang.reflect.Method method = HyperSearchRequest.class.getDeclaredMethod("searchInSelection", Buffer.class);
+        method.setAccessible(true);
+        
+        Selection[] linearArr = new Selection[]{mockLinear};
+        HyperSearchRequest requestLinear = new HyperSearchRequest(mockView, mockMatcher, mockResults, linearArr);
+        try { method.invoke(requestLinear, mockBuffer); } catch (Exception e) {}
+        
+        Selection[] rectArr = new Selection[]{mockRect};
+        HyperSearchRequest requestRect = new HyperSearchRequest(mockView, mockMatcher, mockResults, rectArr);
+        try { method.invoke(requestRect, mockBuffer); } catch (Exception e) {}
         
         // Ensure both partitions were processed (mock bounds are called)
         verify(mockLinear, atLeastOnce()).getStart();
@@ -105,7 +108,9 @@ public class HyperSearchRequestTest {
         when(mockBuffer.getStringProperty("noWordSep")).thenReturn("_");
 
         try {
-            request._run();
+            java.lang.reflect.Method method = HyperSearchRequest.class.getDeclaredMethod("doHyperSearch", Buffer.class, int.class, int.class, javax.swing.tree.DefaultMutableTreeNode.class);
+            method.setAccessible(true);
+            method.invoke(request, mockBuffer, 0, 100, null);
         } catch(Exception e) {}
 
         // Verify the logic branch executed properly checking for buffer mode
