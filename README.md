@@ -64,5 +64,3 @@ We have already successfully generated, validated, and integrated the tests usin
 *   **PIT (`pitest-maven`)** - Mutation coverage
 *   **ChatUniTest** - LLM-Assistant Integration
 
-## Authors
-- Group Members (COE891 Software Testing and Quality Assurance)
