@@ -1,0 +1,90 @@
+Summary for lib\jedit.jar
+Decompiled with CFR 0.152
+
+
+org.gjt.sp.jedit.Buffer
+----------------------------
+
+save(org.gjt.sp.jedit.View java.lang.String boolean boolean )
+  Unable to fully structure code
+checkFileForLoad(org.gjt.sp.jedit.View org.gjt.sp.jedit.io.VFS java.lang.String )
+  Loose catch block
+checkFileForSave(org.gjt.sp.jedit.View org.gjt.sp.jedit.io.VFS java.lang.String )
+  Loose catch block
+
+
+org.gjt.sp.jedit.PluginJAR
+----------------------------
+
+getPluginCache(org.gjt.sp.jedit.PluginJAR )
+  Loose catch block
+
+
+org.gjt.sp.jedit.browser.DeleteBrowserTask
+----------------------------
+
+_run()
+  Loose catch block
+
+
+org.gjt.sp.jedit.browser.ListDirectoryBrowserTask
+----------------------------
+
+_run()
+  Loose catch block
+
+
+org.gjt.sp.jedit.browser.RenameBrowserTask
+----------------------------
+
+_run()
+  Loose catch block
+
+
+org.gjt.sp.jedit.bufferio.BufferAutosaveRequest
+----------------------------
+
+_run()
+  Loose catch block
+
+
+org.gjt.sp.jedit.bufferio.BufferInsertRequest
+----------------------------
+
+_run()
+  Loose catch block
+
+
+org.gjt.sp.jedit.bufferio.BufferSaveRequest
+----------------------------
+
+_run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+org.gjt.sp.jedit.gui.ExtendedGridLayout
+----------------------------
+
+buildGrid(java.awt.Container java.util.List<java.util.List<org.gjt.sp.jedit.gui.ExtendedGridLayoutConstraints>> java.util.Collection<org.gjt.sp.jedit.gui.ExtendedGridLayoutConstraints> java.util.Collection<org.gjt.sp.jedit.gui.ExtendedGridLayoutConstraints> )
+  Could not resolve type clashes
+
+
+org.gjt.sp.jedit.gui.JEditHistoryModelSaver
+----------------------------
+
+load(java.util.Map<java.lang.String, org.gjt.sp.jedit.gui.HistoryModel> )
+  Loose catch block
+
+
+org.gjt.sp.jedit.io.FileVFS
+----------------------------
+
+getPermissions(java.lang.String )
+  Loose catch block
+
+
+org.gjt.sp.jedit.io.VFS
+----------------------------
+
+copy(org.gjt.sp.util.ProgressObserver org.gjt.sp.jedit.io.VFS java.lang.Object java.lang.String org.gjt.sp.jedit.io.VFS java.lang.Object java.lang.String java.awt.Component boolean boolean )
+  Unable to fully structure code

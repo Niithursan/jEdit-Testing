@@ -1,0 +1,607 @@
+﻿[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gjt.sp.jedit:COE891_Tests:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.systemPath' for org.gjt.sp:jedit:jar should not point at files within the project directory, ${project.basedir}/lib/jedit.jar will be unresolvable by dependent projects @ line 43, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------< org.gjt.sp.jedit:COE891_Tests >--------------------
+[INFO] Building COE891_Tests 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.11:prepare-agent (default) @ COE891_Tests ---
+[INFO] argLine set to -javaagent:C:\\Users\\Nithursan\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.11\\org.jacoco.agent-0.8.11-runtime.jar=destfile=C:\\Users\\Nithursan\\Documents\\School\\Uni\\COE891\\Project\\COE891_Tests\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ COE891_Tests ---
+[INFO] skip non existing resourceDirectory C:\Users\Nithursan\Documents\School\Uni\COE891\Project\COE891_Tests\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ COE891_Tests ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ COE891_Tests ---
+[INFO] skip non existing resourceDirectory C:\Users\Nithursan\Documents\School\Uni\COE891\Project\COE891_Tests\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ COE891_Tests ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug target 11] to target\test-classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[16,13] cannot find symbol
+  symbol:   class SearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[17,13] cannot find symbol
+  symbol:   class HyperSearchResults
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[9,52] cannot find symbol
+  symbol:   class SearchMatcher
+  location: class org.gjt.sp.jedit.search.SearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[11,16] cannot find symbol
+  symbol:   class Match
+  location: class org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[13,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[13,47] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[14,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[22,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[22,47] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[23,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[29,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[29,47] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[30,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[17,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[17,47] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[20,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[24,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[28,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[41,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[41,58] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[56,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[56,50] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[19,13] cannot find symbol
+  symbol:   class SearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[19,54] cannot find symbol
+  symbol:   class SearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[21,13] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[21,46] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[23,28] cannot find symbol
+  symbol:   class SearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[24,28] cannot find symbol
+  symbol:   class HyperSearchResults
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[36,9] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[38,9] cannot find symbol
+  symbol:   class SearchFileSet
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[38,42] cannot find symbol
+  symbol:   class SearchFileSet
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[40,9] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[42,9] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[42,42] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[65,43] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[69,9] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[69,48] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[73,9] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[73,46] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[89,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[89,49] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[90,9] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[90,42] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[105,9] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[105,49] cannot find symbol
+  symbol:   class BoyerMooreSearchMatcher
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[106,9] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[106,42] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[111,47] cannot find symbol
+  symbol:   class HyperSearchRequest
+  location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[14,9] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[14,44] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[20,9] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[20,44] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[21,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[30,9] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[30,44] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[31,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[38,9] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[38,44] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[39,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[18,9] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[18,44] cannot find symbol
+  symbol:   class PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[21,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[24,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[38,27] cannot find symbol
+  symbol:   variable PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[42,27] cannot find symbol
+  symbol:   variable PatternSearchMatcher
+  location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[39,27] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[39,65] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[40,13] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[40,44] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[41,35] cannot find symbol
+  symbol:   variable SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[43,13] cannot find symbol
+  symbol:   class HyperSearchResults
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[43,51] cannot find symbol
+  symbol:   class HyperSearchResults
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[47,13] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[48,13] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[54,39] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[65,17] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[80,27] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[80,65] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[81,13] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[81,44] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[82,35] cannot find symbol
+  symbol:   variable SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[83,13] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[86,13] cannot find symbol
+  symbol:   class SearchFileSet
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[86,46] cannot find symbol
+  symbol:   class SearchFileSet
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[88,13] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[92,34] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[109,27] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[109,65] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[110,13] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[110,44] cannot find symbol
+  symbol:   class SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[111,35] cannot find symbol
+  symbol:   variable SearchDialog
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[114,30] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[130,9] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[136,29] cannot find symbol
+  symbol:   variable SearchAndReplace
+  location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[10,9] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[24,16] cannot find symbol
+  symbol:   method setNoWordSep(java.lang.String)
+  location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[27,27] cannot find symbol
+  symbol:   method isWholeWord(java.lang.String,int,int)
+  location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[30,27] cannot find symbol
+  symbol:   method isWholeWord(java.lang.String,int,int)
+  location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[33,27] cannot find symbol
+  symbol:   method isWholeWord(java.lang.String,int,int)
+  location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[46,16] cannot find symbol
+  symbol:   method setNoWordSep(java.lang.String)
+  location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.455 s
+[INFO] Finished at: 2026-03-22T18:09:04-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile (default-testCompile) on project COE891_Tests: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[16,13] cannot find symbol
+[ERROR]   symbol:   class SearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[17,13] cannot find symbol
+[ERROR]   symbol:   class HyperSearchResults
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[9,52] cannot find symbol
+[ERROR]   symbol:   class SearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[11,16] cannot find symbol
+[ERROR]   symbol:   class Match
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[13,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[13,47] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[14,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[22,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[22,47] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[23,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[29,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[29,47] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherLLMTest.java:[30,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[17,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[17,47] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[20,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[24,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[28,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[41,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[41,58] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[56,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/BoyerMooreSearchMatcherTest.java:[56,50] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.BoyerMooreSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[19,13] cannot find symbol
+[ERROR]   symbol:   class SearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[19,54] cannot find symbol
+[ERROR]   symbol:   class SearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[21,13] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestLLMTest.java:[21,46] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[23,28] cannot find symbol
+[ERROR]   symbol:   class SearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[24,28] cannot find symbol
+[ERROR]   symbol:   class HyperSearchResults
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[36,9] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[38,9] cannot find symbol
+[ERROR]   symbol:   class SearchFileSet
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[38,42] cannot find symbol
+[ERROR]   symbol:   class SearchFileSet
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[40,9] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[42,9] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[42,42] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[65,43] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[69,9] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[69,48] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[73,9] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[73,46] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[89,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[89,49] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[90,9] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[90,42] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[105,9] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[105,49] cannot find symbol
+[ERROR]   symbol:   class BoyerMooreSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[106,9] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[106,42] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/HyperSearchRequestTest.java:[111,47] cannot find symbol
+[ERROR]   symbol:   class HyperSearchRequest
+[ERROR]   location: class org.gjt.sp.jedit.search.HyperSearchRequestTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[14,9] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[14,44] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[20,9] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[20,44] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[21,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[30,9] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[30,44] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[31,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[38,9] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[38,44] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherLLMTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherLLMTest.java:[39,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[18,9] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[18,44] cannot find symbol
+[ERROR]   symbol:   class PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[21,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[24,22] package SearchMatcher does not exist
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[38,27] cannot find symbol
+[ERROR]   symbol:   variable PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/PatternSearchMatcherTest.java:[42,27] cannot find symbol
+[ERROR]   symbol:   variable PatternSearchMatcher
+[ERROR]   location: class org.gjt.sp.jedit.search.PatternSearchMatcherTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[39,27] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[39,65] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[40,13] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[40,44] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[41,35] cannot find symbol
+[ERROR]   symbol:   variable SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[43,13] cannot find symbol
+[ERROR]   symbol:   class HyperSearchResults
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[43,51] cannot find symbol
+[ERROR]   symbol:   class HyperSearchResults
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[47,13] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[48,13] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[54,39] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[65,17] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[80,27] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[80,65] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[81,13] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[81,44] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[82,35] cannot find symbol
+[ERROR]   symbol:   variable SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[83,13] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[86,13] cannot find symbol
+[ERROR]   symbol:   class SearchFileSet
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[86,46] cannot find symbol
+[ERROR]   symbol:   class SearchFileSet
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[88,13] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[92,34] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[109,27] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[109,65] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[110,13] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[110,44] cannot find symbol
+[ERROR]   symbol:   class SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[111,35] cannot find symbol
+[ERROR]   symbol:   variable SearchDialog
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[114,30] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[130,9] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchAndReplaceTest.java:[136,29] cannot find symbol
+[ERROR]   symbol:   variable SearchAndReplace
+[ERROR]   location: class org.gjt.sp.jedit.search.SearchAndReplaceTest
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[10,9] method does not override or implement a method from a supertype
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[24,16] cannot find symbol
+[ERROR]   symbol:   method setNoWordSep(java.lang.String)
+[ERROR]   location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[27,27] cannot find symbol
+[ERROR]   symbol:   method isWholeWord(java.lang.String,int,int)
+[ERROR]   location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[30,27] cannot find symbol
+[ERROR]   symbol:   method isWholeWord(java.lang.String,int,int)
+[ERROR]   location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[33,27] cannot find symbol
+[ERROR]   symbol:   method isWholeWord(java.lang.String,int,int)
+[ERROR]   location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] /C:/Users/Nithursan/Documents/School/Uni/COE891/Project/COE891_Tests/src/test/java/org/gjt/sp/jedit/search/SearchMatcherTest.java:[46,16] cannot find symbol
+[ERROR]   symbol:   method setNoWordSep(java.lang.String)
+[ERROR]   location: variable matcher of type org.gjt.sp.jedit.search.SearchMatcherTest.MockSearchMatcher
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
