@@ -10,7 +10,7 @@ Before running the project, ensure you have the following installed on your syst
 
 ## Environment Setup
 1. Clone or extract this `COE891_Tests` folder onto your local machine.
-2. Ensure that the original `jedit.jar` file is located exactly **one level above** this directory (e.g., if this repo is in `/Project/COE891_Tests`, then `jedit.jar` must reside at `/Project/jedit.jar`). The `pom.xml` expects the dependency to live at `${project.basedir}/../jedit.jar`.
+2. Ensure that the original `jedit.jar` file is located inside the `lib` directory within the COE891_Tests folder (e.g., `COE891_Tests/lib/jedit.jar`). The `pom.xml` expects the dependency to live at `${project.basedir}/lib/jedit.jar`.
 
 ---
 

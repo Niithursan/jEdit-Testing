@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <unzip src="C:\Users\Nithursan\Documents\School\Uni\COE891\Project\COE891_Tests/lib/jedit.jar" dest="C:\Users\Nithursan\Documents\School\Uni\COE891\Project\COE891_Tests\target/classes">
+      <patternset>
+        <include name="org/gjt/sp/jedit/search/**/*.class" />
+      </patternset>
+    </unzip>
+  </target>
+</project>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gjt.sp.jedit.search.SearchAndReplaceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.566 s -- in org.gjt.sp.jedit.search.SearchAndReplaceTest
