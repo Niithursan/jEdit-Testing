@@ -44,19 +44,6 @@ Once the build completes, the overall Mutation Score report will be accessible a
 
 ---
 
-## 🤖 (Optional) Re-running ChatUniTest LLM Generation
-We have already successfully generated, validated, and integrated the tests using the `qwen3-coder-30b` LLM model. However, if you wish to re-test the ChatUniTest Maven plugin:
-
-1. **Start Local Server:** Open LM Studio and start the local server on `http://127.0.0.1:1234/v1` (or adjust the URL in `pom.xml` if using Ollama).
-2. **Generate Tests:** Run the generation command, defining which class the LLM should target:
-   ```bash
-   mvn chatunitest:class -DselectClass=org.gjt.sp.jedit.search.BoyerMooreSearchMatcher
-   ```
-3. **Copy to Test Directory:** Once the generation finishes successfully, copy the test code over to your `src/test/java` directory by running:
-   ```bash
-   mvn chatunitest:copy
-   ```
-
 ## Key Technologies Used
 *   **JUnit 5 (Jupiter)** - Primary testing framework
 *   **Mockito 5 (`mockito-inline`)** - Headless GUI (`SearchDialog`) manipulation and dependency injection
