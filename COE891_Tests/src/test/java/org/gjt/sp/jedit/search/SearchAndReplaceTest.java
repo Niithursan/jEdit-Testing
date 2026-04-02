@@ -101,7 +101,7 @@ public class SearchAndReplaceTest {
      * Testing Abstraction: Mutation Testing
      * Target: replace(View view)
      * Rationale: Simulates killing a mutant where !buffer.isEditable() is flipped
-     * to `buffer.isEditable()`. If the buffer is NOT editable, it MUST return false instantly.
+     * to buffer.isEditable(). If the buffer is NOT editable, it MUST return false instantly.
      */
     @Test
     public void testReplace_Mutation_KillBufferEditableMutant() {
@@ -132,8 +132,9 @@ public class SearchAndReplaceTest {
 
         // Partition 1: Valid Start Boundary = 0
         try {
-            boolean found = SearchAndReplace.find(mockView, mockBuffer, 0, true, false);
+            SearchAndReplace.find(mockView, mockBuffer, 0, true, false);
         } catch (Exception e) {
+            // Intentionally ignored: this path can throw due to partially mocked internals.
         }
     }
 }
