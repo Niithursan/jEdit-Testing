@@ -6,7 +6,6 @@ import org.gjt.sp.jedit.textarea.JEditTextArea;
 import org.gjt.sp.jedit.textarea.Selection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 import org.mockito.MockedStatic;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -31,7 +30,7 @@ public class SearchAndReplaceTest {
     /**
      * Testing Abstraction: Logic-based Testing
      * Target: hyperSearch(View view, boolean selection)
-     * Rationale: Testing the predicate logic where selection=true and the text area 
+     * Rationale: Testing the predicate logic where selection=true and the text area
      * returns null selection, versus when it returns a valid selection.
      */
     @Test
@@ -72,7 +71,7 @@ public class SearchAndReplaceTest {
     /**
      * Testing Abstraction: Graph-based Testing (CFG)
      * Target: find(View view)
-     * Rationale: Specifically navigating the CFG to ensure the "find" loop 
+     * Rationale: Specifically navigating the CFG to ensure the "find" loop
      * correctly handles a null buffer returned by openTemporary and continues/breaks.
      */
     @Test
@@ -92,7 +91,7 @@ public class SearchAndReplaceTest {
                 boolean result = SearchAndReplace.find(mockView);
                 assertFalse(result, "Expected find loop to exhaust files and return false");
             } catch (Exception e) {
-                // Exepected handleError UI exception, graph traversal completes
+                // Expected handleError UI exception, graph traversal completes
             }
             verify(mockFileSet, atLeastOnce()).getNextFile(any(), any());
         }
@@ -101,7 +100,7 @@ public class SearchAndReplaceTest {
     /**
      * Testing Abstraction: Mutation Testing
      * Target: replace(View view)
-     * Rationale: Simulates killing a mutant where `!buffer.isEditable()` is flipped 
+     * Rationale: Simulates killing a mutant where !buffer.isEditable() is flipped
      * to `buffer.isEditable()`. If the buffer is NOT editable, it MUST return false instantly.
      */
     @Test
@@ -113,7 +112,7 @@ public class SearchAndReplaceTest {
 
             boolean result = SearchAndReplace.replace(mockView);
             assertFalse(result, "Mutant survived: method processed replace on uneditable buffer!");
-            
+
             // Ensure no selection was ever fetched, proving early exit
             verify(mockTextArea, never()).getSelection();
         }
@@ -122,7 +121,7 @@ public class SearchAndReplaceTest {
     /**
      * Testing Abstraction: Input Space Partitioning (ISP) / BVA
      * Target: find(View view, Buffer buffer, int start, boolean firstTime, boolean reverse)
-     * Rationale: Testing exact boundary value of start=0 (Base partition) and 
+     * Rationale: Testing exact boundary value of start=0 (Base partition) and
      * start > bufferLength (Out of bounds partition) on reverse vs forward.
      */
     @Test
@@ -130,13 +129,11 @@ public class SearchAndReplaceTest {
         SearchAndReplace.setSearchString("boundary");
         when(mockBuffer.getLength()).thenReturn(100);
         when(mockBuffer.getSegment(anyInt(), anyInt())).thenReturn("sample string with boundary term inside");
-        
+
         // Partition 1: Valid Start Boundary = 0
         try {
             boolean found = SearchAndReplace.find(mockView, mockBuffer, 0, true, false);
-            // Will likely return true or false based on internal matcher without crashing
         } catch (Exception e) {
-            // fail("Should not crash on normal boundary value");
         }
     }
 }

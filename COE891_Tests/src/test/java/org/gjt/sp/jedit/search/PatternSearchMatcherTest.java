@@ -1,7 +1,8 @@
 package org.gjt.sp.jedit.search;
 
-import org.junit.jupiter.api.Test;
 import java.util.regex.Pattern;
+
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,13 +11,13 @@ public class PatternSearchMatcherTest {
     /**
      * Testing Abstraction: Logic-based Testing
      * Target: nextMatch(CharSequence text, boolean start, boolean end, boolean firstTime, boolean reverse)
-     * Rationale: We test the logic paths involving zero-length regex matches 
-     * (e.g. `^` or `$`) and how the matcher resolves the while(true) loop.
+     * Rationale: We test the logic paths involving zero-length regex matches
+     * (e.g. ^ or $) and how the matcher resolves the while(true) loop.
      */
     @Test
     public void testNextMatch_LogicBased_ZeroWidthAssertions() throws Exception {
         PatternSearchMatcher matcher = new PatternSearchMatcher("^start", false);
-        
+
         // Logical branch: text boundaries trigger start=true vs start=false
         SearchMatcher.Match matchStart = matcher.nextMatch("start line", true, true, true, false);
         assertNotNull(matchStart, "Expected '^' regex to match at start=true branch.");

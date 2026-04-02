@@ -9,7 +9,7 @@ public class BoyerMooreSearchMatcherTest {
     /**
      * Testing Abstraction: Input Space Partitioning (ISP)
      * Target: nextMatch(CharSequence text, boolean start, boolean end, boolean firstTime, boolean reverse)
-     * Rationale: Partitioning input text into [Empty Sequence], [Sequence without match], 
+     * Rationale: Partitioning input text into [Empty Sequence], [Sequence without match],
      * and [Sequence strictly matching the pattern length].
      */
     @Test
@@ -33,13 +33,13 @@ public class BoyerMooreSearchMatcherTest {
     /**
      * Testing Abstraction: Mutation Testing
      * Target: match(CharSequence text, boolean reverse)
-     * Rationale: Killing the mutant where `if(ignoreCase)` is omitted or flipped.
+     * Rationale: Killing the mutant where if(ignoreCase) is omitted or flipped.
      * We supply upper/lowercase partitioned text to ensure case heuristics work identically.
      */
     @Test
     public void testMatch_Mutation_IgnoreCaseMutant() throws Exception {
         BoyerMooreSearchMatcher matcherInsensitive = new BoyerMooreSearchMatcher("Mutant", true);
-        
+
         // If ignoreCase logic was mutated/removed, this match would fail
         int pos = matcherInsensitive.match("mutant test", false);
         assertEquals(0, pos, "Mutant survived: ignoreCase condition failed to resolve case disparity.");
@@ -48,13 +48,13 @@ public class BoyerMooreSearchMatcherTest {
     /**
      * Testing Abstraction: Logic-based Testing
      * Target: generateSuffixArray(boolean reverse)
-     * Rationale: We test the logic path generation based on `reverse` boolean predicate.
+     * Rationale: We test the logic path generation based on reverse boolean predicate.
      * The internal loop branches should generate completely inversed shift arrays.
      */
     @Test
     public void testGenerateSuffixArray_LogicBased_ReversePredicate() throws Exception {
         BoyerMooreSearchMatcher fwdMatcher = new BoyerMooreSearchMatcher("findme", false);
-        
+
         // This implicitly calls generateSuffixArray(false)
         int fwdPos = fwdMatcher.match("you will findme here", false);
         assertEquals(9, fwdPos);
