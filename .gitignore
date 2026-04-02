@@ -1,0 +1,17 @@
+# IDE Specific
+.vscode/
+
+# Maven / Java Build Output
+target/
+*.class
+*.log
+
+# Ignore all generated JAR files
+*.jar
+# Only allow the lib directory so jedit.jar is safely shared!
+!COE891_Tests/lib/
+!COE891_Tests/lib/*.jar
+
+# Coverage & Mutation Data
+jacoco.exec
+pit-reports/
